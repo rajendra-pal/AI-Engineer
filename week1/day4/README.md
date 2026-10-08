@@ -1,1 +1,1 @@
-## Extract data using pydantic
+## Extract data using pydantic and format it using json
