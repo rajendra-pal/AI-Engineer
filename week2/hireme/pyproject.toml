@@ -1,0 +1,25 @@
+[project]
+name = "hireme"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rajendra Pal", email = "rajendrapal3257@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.143.1",
+    "groq>=1.7.0",
+    "pydantic>=2.14.1",
+    "pypdf>=6.20.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+hireme = "hireme:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
